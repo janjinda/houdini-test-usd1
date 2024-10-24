@@ -10,7 +10,7 @@
 def "toy_box03" (
     kind = "component"
     prepend references = [
-        @./mtl.usda@,
+        @./look.usda@,
         @./geo.usda@
     ]
 )
