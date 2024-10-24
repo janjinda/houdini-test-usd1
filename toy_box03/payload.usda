@@ -11,7 +11,7 @@ def "toy_box03" (
     kind = "component"
     prepend references = [
         @./look.usda@,
-        @./geo.usda@
+        @./model.usda@
     ]
 )
 {
