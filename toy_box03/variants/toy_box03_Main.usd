@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    subLayers = [
+        @../toy_box03.usd@
+    ]
+)
+
+over "toy_box03" (
+    assetInfo = {
+        asset thumbnail = @./toy_box03_Main_thumbnail.png@
+    }
+    variants = {
+        string model = "Main"
+    }
+)
+{
+}
+

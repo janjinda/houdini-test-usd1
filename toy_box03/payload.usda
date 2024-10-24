@@ -1,0 +1,19 @@
+#usda 1.0
+(
+    defaultPrim = "toy_box03"
+    framesPerSecond = 24
+    metersPerUnit = 1
+    timeCodesPerSecond = 24
+    upAxis = "Y"
+)
+
+def "toy_box03" (
+    kind = "component"
+    prepend references = [
+        @./mtl.usda@,
+        @./geo.usda@
+    ]
+)
+{
+}
+
